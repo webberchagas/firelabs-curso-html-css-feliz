@@ -1,9 +1,18 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2F3672;
     border-bottom: 10px solid #000;
-    padding: 10px 20px;
+    padding: 10px 40px;
+}
+
+.logo {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #FFF;
+    text-shadow: 5px 5px 0px #000;
+    
 }
 
 nav {
@@ -29,7 +38,7 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #F54949;
     height: 60px;
@@ -37,10 +46,37 @@ a::before {
     box-shadow: 5px 5px 0px #000;
     box-sizing: border-box;
     margin-right: 0px;
+    transition: transform 500ms cubic-bezier(0.52, 0.22, 0, 1.47);
+}
+
+.button:hover {
+    transform: scale(1.08);
     
 }
 
-#button:hover {
-    transform: scale(1.03);
-    transition: transform 500ms cubic-bezier(.52,.22,0,1.47);
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 627px;
+    height: 184px;
+    background: #3A4042;
+    box-shadow: 10px 10px 0px #000;
+    margin-bottom: 38px;
+}
+
+#name {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F54949;
+    text-shadow: 4px 4px 0px #000;
+    margin-bottom: 28px;
+}
+
+#profissao {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 4px 4px 0px #000;
 }
