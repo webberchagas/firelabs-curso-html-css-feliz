@@ -2,3 +2,7 @@
     --color-first: #F54949;
     --color-second: #2F3672;
 }
+
+body {
+    font-family: 'Fira Code', sans-serif;
+}
