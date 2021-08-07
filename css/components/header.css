@@ -7,3 +7,9 @@
     padding: 10px 40px;
 }
 
+.header .logo {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #FFF;
+    text-shadow: 5px 5px 0px #000;
+}
