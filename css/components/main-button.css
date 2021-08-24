@@ -9,6 +9,7 @@
     color: #FFF;
     font-family: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -17,4 +18,8 @@
 
 .main-button.-full {
     width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
